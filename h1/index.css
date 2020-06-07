@@ -1,0 +1,43 @@
+.card-header {
+    background-color: #5bc0de;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+
+.forgot-pass {
+      justify-content: space-between
+  }
+
+.card {
+      padding: 0;
+  }
+
+.or-text {
+    text-align: center;
+    position: relative;
+}
+span {
+    display: inline;
+    color: rgb(163, 161, 161);   
+}
+
+span:before,
+span:after {
+    border-top: 1px solid rgb(163, 161, 161);
+    display: block;
+    height: 1px;
+    content: "";
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 1em;
+}
+span:after {
+   right: 0;  
+   left: auto; 
+}
+
+.epam-text {
+    color: white;
+}
